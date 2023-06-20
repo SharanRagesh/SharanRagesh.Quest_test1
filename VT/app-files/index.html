@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-security-cabin_main-gate">
+        <li class="text">Security Cabin_Main gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-building-west-entrance_exterior">
+        <li class="text">Building West entrance_Exterior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-exterior_southwest">
+        <li class="text">Exterior_SouthWest</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-exterior_southwest-corner">
+        <li class="text">Exterior_SouthWest corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-exterior_south">
+        <li class="text">Exterior_South</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-exterior_southeast">
+        <li class="text">Exterior_SouthEast</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-exterior_southeast-corner">
+        <li class="text">Exterior_SouthEast corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-exterior_east">
+        <li class="text">Exterior_East</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-exterior_east1">
+        <li class="text">Exterior_East1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-exterior_northeast-corner">
+        <li class="text">Exterior_NorthEast Corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-exterior_north">
+        <li class="text">Exterior_North</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-terrace2">
+        <li class="text">Terrace2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-terrace1">
+        <li class="text">Terrace1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-4th-floor_north3_interior">
+        <li class="text">4th Floor_North3_Interior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-4th-floor_north2_interior">
+        <li class="text">4th Floor_North2_Interior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-4th-floor_north1_interior">
+        <li class="text">4th Floor_North1_Interior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-4th-floor_stairwell_exterior">
+        <li class="text">4th Floor_Stairwell_Exterior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-4th-floor_liftentrance">
+        <li class="text">4th Floor_LiftEntrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-3rd-floor_liftentrance">
+        <li class="text">3rd Floor_LiftEntrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-img_20230617_141526_00_merged">
+        <li class="text">IMG_20230617_141526_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-3rd-floor_southhall1">
+        <li class="text">3rd Floor_SouthHall1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-3rd-floor_southhall2">
+        <li class="text">3rd Floor_SouthHall2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-3rd-floor_northhall">
+        <li class="text">3rd Floor_NorthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-3rd-floor_utility">
+        <li class="text">3rd Floor_Utility</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-3rd-floor_staircase_interior">
+        <li class="text">3rd Floor_Staircase_Interior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-3rd-floor_midlanding_staircase-">
+        <li class="text">3rd Floor_MidLanding_Staircase </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-stairwell">
+        <li class="text">Stairwell</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-2nd-floor_liftentrance">
+        <li class="text">2nd Floor_LiftEntrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-2nd-floor_southhall">
+        <li class="text">2nd Floor_SouthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-2nd-floor_northhall">
+        <li class="text">2nd Floor_NorthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-stairwell_midlanding">
+        <li class="text">Stairwell_Midlanding</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-1st-floor_liftentrance">
+        <li class="text">1st Floor_LiftEntrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-1st-floor_northhall">
+        <li class="text">1st Floor_NorthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-1st-floor_passage_southhall">
+        <li class="text">1st Floor_Passage_SouthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-1st-floor_southhall">
+        <li class="text">1st Floor_SouthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-1st-floor_southhall1">
+        <li class="text">1st Floor_SouthHall1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-amphitheatre_seating">
+        <li class="text">Amphitheatre_Seating</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-mainentrance_interior">
+        <li class="text">MainEntrance_Interior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-ground-floor_utility">
+        <li class="text">Ground Floor_Utility</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-ground-floor_liftentrance">
+        <li class="text">Ground Floor_LiftEntrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-ground-floor_southhall_entrance">
+        <li class="text">Ground Floor_SouthHall_Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-ground-floor_southhall_passage">
+        <li class="text">Ground Floor_SouthHall_Passage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-ground-floor_southhall">
+        <li class="text">Ground Floor_SouthHall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-ground-floor_-garage">
+        <li class="text">Ground Floor_ Garage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-ground-floor_garage1">
+        <li class="text">Ground Floor_Garage1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-north_facade">
+        <li class="text">North_Facade</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-east_facade">
+        <li class="text">East_Facade</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-east_facade1">
+        <li class="text">East_facade1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-south_facade">
+        <li class="text">South_Facade</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-west_facade">
+        <li class="text">West_Facade</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-west_facade1">
+        <li class="text">West_Facade1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-northwest_corner">
+        <li class="text">NorthWest_Corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-view1_terrace">
+        <li class="text">View1_Terrace</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-view2_terrace">
+        <li class="text">View2_Terrace</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
